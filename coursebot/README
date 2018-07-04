@@ -1,17 +1,17 @@
-#NAME 
+# NAME 
     COURSE DESCRIPTIONS BOT
 
-##WORKSPACE
+## WORKSPACE
     UMCP CyberSecurity
 
-##CHANNEL
+## CHANNEL
     #lectures
 
-##SYNOPSYS
+## SYNOPSYS
     @Course Descriptions Bot help
     @Course Descriptions Bot about ENPM611
 
-##SETUP
+## SETUP
     sudo apt-get update
     sudo apt-get install virtualenv
     mkdir course_desc
@@ -24,8 +24,8 @@
     python coursedesc.py
     
 
-##PURPOSE
+## PURPOSE
     This bot responds with the course descriptions of the courses that are being offered at the University of Maryland, College Park for the Masters of Engineering Cybersecurity program.
 
-##RESTRICTIONS
+## RESTRICTIONS
     Since this bot is not a mission-critical bot, I've included the bot user access auth token in the setup section. Contributors must make sure they don't badly break the bot.
